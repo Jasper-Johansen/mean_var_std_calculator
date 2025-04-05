@@ -16,8 +16,8 @@ The goal is to create a function that:
 - list (List): A list containing exactly 9 numerical values (integers or floats). If the list contains fewer than 9 elements, a ValueError is raised.
 
 ## Output 
-Output:
-- Returns a dictionary with the following keys and values:
+
+Returns a dictionary with the following keys and values:
 
 python
 ```
@@ -32,11 +32,11 @@ python
 ```
 Where:
 
--- axis1: Values calculated for each column.
+- axis1: Values calculated for each column.
 
--- axis2: Values calculated for each row.
+- axis2: Values calculated for each row.
 
--- flattened: Values calculated for the entire flattened matrix.
+- flattened: Values calculated for the entire flattened matrix.
 
 ## Development
 The code is written in Python and makes use of the <code>numpy</code> library for array manipulation and statistical calculations.

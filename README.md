@@ -13,13 +13,12 @@ The goal is to create a function that:
   - Mean, variance, standard deviation, max, min, and sum for the rows, columns, and the entire flattened matrix.
 
 ## Input
-- list (List): A list containing exactly 9 numerical values (integers or floats). If the list contains fewer than 9 elements, a ValueError is raised.
+list (List): A list containing exactly 9 numerical values (integers or floats). If the list contains fewer than 9 elements, a `ValueError` is raised.
 
 ## Output 
 
 Returns a dictionary with the following keys and values:
 
-python
 ```
 {
   'mean': [axis1, axis2, flattened],
@@ -39,6 +38,6 @@ Where:
 - flattened: Values calculated for the entire flattened matrix.
 
 ## Development
-The code is written in Python and makes use of the <code>numpy</code> library for array manipulation and statistical calculations.
+The code is written in Python and makes use of the `numpy` library for array manipulation and statistical calculations.
 
 To run your code for testing or further development, simply execute the script in your development environment.
